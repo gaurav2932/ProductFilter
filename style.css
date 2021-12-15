@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Padauk:wght@700&family=Quicksand&family=Roboto:wght@300&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Padauk', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+/* navBar */
+.logo{
+        color: rgb(33, 202, 253);
+        align-self: center;
+}
+.logo h1{
+        font-size: 34px;
+}
+nav{
+        display: flex;
+        background-color: black;
+        height: 53px;
+        align-items: center;
+        justify-content: space-between;
+}
+nav ul{
+        display: flex;
+        align-self: center;
+}
+nav ul li{
+        list-style: none;
+        margin: 4px;
+}
+nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+}
+.search-section{
+        padding-right: 5px;
+}
+
+.search{
+        border: 1px solid;
+        border-radius: 2px;
+        font-size: 19px;
+        padding: 4px;
+        outline: none;
+}
+.btn-srh{
+        color: white;
+        background-color: black;
+        border: 1px solid rgb(33, 202, 253);
+}
+/* navBar */
+
+.btn-srh:hover{
+        color: white;
+        background-color: rgb(33, 202, 253);
+        transition:0.4s ease-in;
+}
+
+/* Button for filters  */
+.heading{
+        display: flex;
+        justify-content: center;
+        padding: 27px 0;
+}
+.myContainer{
+        outline: none;
+        font-size: 25px;
+        padding: 10px;
+}
+/* Button for filters  */
+
+/* Shoping Section */
+.shoping-section{
+        display: flex;
+        flex-direction: row;
+}
+
+.shoping-section {
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+.filterDiv{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        display: none;
+}
+.show {
+        display: block;
+}
+
+img{
+        width:100%
+}
+/* Shoping Section */
+
+/* button in shopping card */
+.filterDiv button{
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+        background-color: rgb(10 154 198);
+        color: white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+}
+.filterDiv button:hover{
+        background-color: rgb(14, 130, 165);
+        opacity: 0.8;
+}
